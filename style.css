@@ -1,0 +1,335 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #1E234D;
+            line-height: 1.6;
+        }
+
+.container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 30px;
+        }
+        
+.logo a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #1E234D;
+}
+
+nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+nav li {
+            margin-right: 20px;
+        }
+
+nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+.hero {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+.hero-text {
+            flex: 1;
+        }
+
+.hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+.hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+p {
+            margin-bottom: 15px;
+        }
+
+.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1E234D;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+.quick-links {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+.quick-links h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+.quick-links ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+.quick-links li a {
+            display: inline-block;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #333;
+        }
+
+.projetos-section {
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+.projetos-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+.projetos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+.projeto-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+.projeto-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+.projeto-info {
+            padding: 15px;
+        }
+
+.projeto-info h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+.projeto-data {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+.projeto-descriçao {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+.projeto-link {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #1E234D;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+.dasredes-section {
+            margin-bottom: 50px;
+        }
+
+.dasredes-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+.dasredes-header h2 {
+            font-size: 1.5em;
+        }
+
+.dasredes-header a {
+            text-decoration: none;
+            color: #1E234D;
+            font-size: 0.9em;
+        }
+
+.dasredes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+.dasredes-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+.dasredes-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+.dasredes-info {
+            padding: 15px;
+        }
+
+.dasredes-data {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+.dasredes-titulo {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+}
+
+.sobre-section {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.sobre-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sobre-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.sobre-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.sobre-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.sobre-card p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.sobre-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #1E234D;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.contato-section {
+    margin-bottom: 50px;
+}
+
+.contato-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contato-header h2 {
+    font-size: 1.5em;
+}
+
+.contato-header a {
+    text-decoration: none;
+    color: #1E234D;
+    font-size: 0.9em;
+}
+
+.contato-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.contato-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contato-card img {
+    border: none;
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contato-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.contato-tipo {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.contato-card p {
+    color: #555;
+    margin-bottom: 15px;
+}
